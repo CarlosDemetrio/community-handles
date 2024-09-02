@@ -15,7 +15,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   })
   if (!user) {
     return {
-      title: "Profile not found",
+      title: "Perfil não encontrado",
       description: ":(",
     }
   }

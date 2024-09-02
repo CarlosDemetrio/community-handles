@@ -42,7 +42,7 @@ export default async function CommunityPage({ params }: Props) {
           Quer se juntar aos {count} membros da comunidade {domain}? Obtenha seu
           próprio{" "}
           <Link href="/" className="underline">
-            identificador {domain}
+            {domain} handle
           </Link>
           .
         </p>
@@ -61,8 +61,8 @@ export default async function CommunityPage({ params }: Props) {
 }
 
 function ProfileListSection({
-                              profiles,
-                            }: {
+  profiles,
+}: {
   profiles: AppBskyActorDefs.ProfileViewDetailed[]
 }) {
   return profiles.map((profile) => (

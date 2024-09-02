@@ -32,7 +32,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
     <>
       <html lang="pt-BR" suppressHydrationWarning>
         <head>
-          <Analytics /><title></title>
+          <Analytics />
         </head>
         <body
           className={cn(
