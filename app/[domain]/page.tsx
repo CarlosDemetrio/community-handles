@@ -11,9 +11,9 @@ import { Stage } from "@/components/stage"
 
 export function generateMetadata({ params }: { params: { domain: string } }) {
   const domain = params.domain
-  return {
-    title: `${domain} - get your community handle for Bluesky`,
-    description: `get your own ${domain} handle`,
+   return {
+    title: `${domain} - obtenha seu identificador de comunidade para Bluesky`,
+    description: `obtenha seu próprio identificador ${domain}`,
   }
 }
 
